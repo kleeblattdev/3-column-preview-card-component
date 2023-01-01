@@ -1,0 +1,23 @@
+/* Color scheme
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+*/
+
+/* Font-Family
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+*/
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url(../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url(../fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+}

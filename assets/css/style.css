@@ -21,3 +21,133 @@ font-family: 'Big Shoulders Display', cursive;
     font-family: 'Big Shoulders Display';
     src: url(../fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
 }
+
+/* GLOBAL STYLE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 1rem 0 2rem;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5em;
+    width: 300px;
+}
+
+p,a:not(.attribution a){
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* MAIN STYLE */
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+main article section{
+    background-position: top 2rem left 2.5rem;
+    background-repeat: no-repeat;
+    padding: 4rem 4rem 9rem;
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.learnMoreButton{
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    margin: 3rem 0;
+}
+
+.learnMoreButton:hover{
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+/* SEDANS SECTION */
+
+.sedans{
+    background-image: url(../images/icon-sedans.svg);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans a{
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans a:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+/* SUV SECTION */
+.suv{
+    background-image: url(../images/icon-suvs.svg);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv a{
+    color: hsl(184, 100%, 22%);
+}
+
+.suv a:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+
+/* LUXURY SECTION */
+
+.luxury{
+    background-image: url(../images/icon-luxury.svg);
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury a{
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury a:hover{
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* FOOTER */
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width:576px) {
+
+    main article section{
+    height: 100vh;
+    }
+    
+}

@@ -56,13 +56,17 @@ a{
 /* MAIN STYLE */
 
 main{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 main article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -131,10 +135,18 @@ main article section{
 }
 
 /* FOOTER */
+
 .attribution {
     font-size: 11px; text-align: center;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media only screen (max-width:576px) {
+    
+    main article{
+        display::none;
+    }
 }

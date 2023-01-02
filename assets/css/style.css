@@ -68,14 +68,13 @@ main article{
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 main article section{
     background-position: top 2rem left 2.5rem;
     background-repeat: no-repeat;
     padding: 4rem 4rem 9rem;
-    max-width: 400px;
-    max-height: 600px;
 }
 
 .learnMoreButton{
@@ -142,12 +141,4 @@ main article section{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
-
-@media only screen and (max-width:576px) {
-
-    main article section{
-    height: 100vh;
-    }
-    
 }

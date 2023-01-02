@@ -144,9 +144,8 @@ main article section{
     color: hsl(228, 45%, 44%); 
 }
 
-@media only screen (max-width:576px) {
-    
+@media only screen and (max-width:576px) {
     main article{
-        display::none;
+        display: block;
     }
 }

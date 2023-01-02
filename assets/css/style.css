@@ -63,10 +63,6 @@ main{
 }
 
 main article{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     border-radius: 10px;
     overflow: hidden;
 }
